@@ -335,6 +335,12 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 5
+  - Name: AllowedRemoteSources
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["https://www.youtube.com","http://localhost:8086/"]
 - Name: MainWindow
   Id: g=01a7e8933afd7c95fe894b0859308138
   Supertype: Window
@@ -531,3 +537,4 @@ Children:
         ModellingRule: Optional
         Value: 100.0
 - File: Screens/Screens.yaml
+- File: MyDialogs/MyDialogs.yaml

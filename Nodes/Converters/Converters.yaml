@@ -1,2 +1,30 @@
 Name: Converters
 Type: ConvertersCategoryFolder
+Children:
+- Name: MyFirstExprEv
+  Id: g=30231db0428c03dc5026e0b940692d57
+  Supertype: ExpressionEvaluator
+  ReferenceType: HasComponent
+  Children:
+  - Name: Expression
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "{0} && {1}"
+  - Name: ns=2;Source0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: ns=2;Source1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath

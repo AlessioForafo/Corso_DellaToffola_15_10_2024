@@ -14,3 +14,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 33
+- Name: Variable4
+  Type: BaseDataVariableType
+  DataType: Int32
